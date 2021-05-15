@@ -50,9 +50,7 @@ export class StudentDao {
   getAllStudents = async (getStudentReq: GetStudentReq) => {
     try {
       let query = {};
-      getStudentReq.username
-        ? (query["username"] = getStudentReq.username)
-        : null;
+      getStudentReq.username  ? (query["username"] = getStudentReq.username) : null;
       getStudentReq.name ? (query["name"] = getStudentReq.name) : null;
       getStudentReq.email ? (query["email"] = getStudentReq.email) : null;
       const skip = +getStudentReq.skip;

@@ -1,4 +1,4 @@
-import { lang, profTypes } from '../../utils/enums'; 3
+import { lang, profTypes } from '../../utils/enums'; 
 import {  Request } from "express";
 export interface createProf {
   username: String;

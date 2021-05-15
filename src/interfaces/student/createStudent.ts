@@ -1,4 +1,4 @@
-import { lang } from "../../utils/enums"; 3
+import { lang } from "../../utils/enums"; 
 import {  Request } from "express";
 export interface createStudent {
   username: String;

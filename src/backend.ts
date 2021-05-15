@@ -4,9 +4,9 @@ import { Logy } from './utils/logy';
 import { StudentRouter } from './routers/student.router';
 import { StudentController } from './controllers/student.controller';
 import { StudentDao } from './dao/student.dao';
-import { ProfDao } from './dao/prof.dao';
-import { ProfController } from './controllers/prof.controller';
 import { ProfRouter } from './routers/prof.router';
+import { ProfController } from './controllers/prof.controller';
+import { ProfDao } from './dao/prof.dao';
 import { CourseDao } from './dao/course.dao';
 
 export class Backend {
@@ -29,7 +29,7 @@ export class Backend {
     application.use('/student', studentRouterObject)
     application.use('/prof',profRouterObject)
   }
-
+                                                                      
   // start backend
   start(PORT: number) {
     this.application.listen(PORT, () => {

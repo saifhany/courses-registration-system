@@ -965,3 +965,157 @@
 	   ✔️  2020/9/26 17:30:36
 
 }
+{
+	  level ⛔  ERROR
+	  message ⛔  "please enter correct data"
+	   ✔️  "c07be5a1-dbcf-44f9-956b-65bdb7ddb6ee"
+	   ✔️  2021/5/8 6:31:56
+
+}
+{
+	  level ⛔  ERROR
+	  message ⛔  {"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"ahmed123@gmail.com"}}
+	   ✔️  "0ce336c5-d846-4e03-9e35-67d1b38dd61d"
+	   ✔️  2021/5/8 6:32:24
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "940586a8-5e78-4500-b5a2-075db7e29e3b"
+	   ✔️  2021/5/8 6:39:58
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "689b638d-acbc-4378-8bd4-8f4c262a796d"
+	   ✔️  2021/5/8 7:22:50
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "aa86e040-0228-4ff7-9251-f95f0e741a7c"
+	   ✔️  2021/5/8 7:26:26
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "9abdcbc9-eb4f-4184-a431-644fd142ed8a"
+	   ✔️  2021/5/8 7:28:8
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "770f2677-bab2-4af6-9f30-f45885cf7fe7"
+	   ✔️  2021/5/8 7:28:44
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "088e31bc-1217-4722-b229-817972802532"
+	   ✔️  2021/5/8 7:33:11
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "logout called"
+	   ✔️  "d7995867-117d-4e06-bf4e-35d56b37435a"
+	   ✔️  2021/5/8 7:33:20
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "510a9345-2e02-4bf3-86ec-d4f134769624"
+	   ✔️  2021/5/8 7:33:59
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "logout called"
+	   ✔️  "e6eb5332-37cc-4f95-a2d8-d6b41a06aadd"
+	   ✔️  2021/5/8 7:34:8
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "2fe1fcc9-cd72-4eda-98e6-a799479d9fd6"
+	   ✔️  2021/5/8 7:34:53
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "21886cfd-2093-40aa-a0de-14957e83fe51"
+	   ✔️  2021/5/8 7:35:35
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "5de7b007-2409-4d71-afe7-11e5755ea7f7"
+	   ✔️  2021/5/8 7:35:37
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "0ff9cf10-40ee-4d15-885d-8811fe3a3e86"
+	   ✔️  2021/5/8 7:35:38
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "logout called"
+	   ✔️  "2b3b426d-8c80-4bd4-9705-e2be94bbf353"
+	   ✔️  2021/5/8 7:35:42
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "c5e9e298-2c27-440f-bb55-f25205aefbfd"
+	   ✔️  2021/5/8 7:36:12
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "logout called"
+	   ✔️  "61aee1c8-47be-4e4b-9299-790f2f4e44ef"
+	   ✔️  2021/5/8 7:36:16
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "89d322ed-34fd-4289-b164-f5eb1c73266b"
+	   ✔️  2021/5/8 7:36:34
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "logout called"
+	   ✔️  "54cd346d-6e71-4a46-8615-8cc873227fcc"
+	   ✔️  2021/5/8 7:36:49
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "login student called"
+	   ✔️  "5759fca7-0c30-4e1f-b64a-2e6d057df1a9"
+	   ✔️  2021/5/8 7:38:8
+
+}
+{
+	  level ✏️  INFO
+	  message ✏️  "logout called"
+	   ✔️  "0e289fcb-ae6a-4224-a276-dc6e458d4591"
+	   ✔️  2021/5/8 7:39:0
+
+}

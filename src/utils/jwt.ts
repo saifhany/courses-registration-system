@@ -2,11 +2,11 @@ import * as jwt from "jsonwebtoken";
 import {Request,Response} from 'express';
 import { Env } from './env';
 import Student from '../models/student.model';
+import Prof from '../models/prof.model';
 import { resStatus, lang } from './enums';
 import { BaseResponse } from '../interfaces/general/base.response';
 import { Localize } from './localize';
 import { Logy } from './logy';
-import Prof from '../models/prof.model';
 
 export class JWT {
   public static generateToken = (data: {}) => {
@@ -21,9 +21,7 @@ export class JWT {
     }
   }
   public static StudentAuth = async (request:Request, response:Response, next) => {
-    try {
-    
-      
+    try {   
       const token = request.header('Authorization')?.replace('Bearer ', '')
         const decode = jwt.verify(token, Env.JWTSECRECT);
         const student = await Student.findOne({
@@ -47,6 +45,7 @@ export class JWT {
       response.status(resStatus.Unauthorized).send(newResponse);
     }
   }
+  
   public static ProfAuth = async (request:Request, response:Response, next) => {
     try {
       console.log('t');
@@ -58,9 +57,9 @@ export class JWT {
         })
       console.log({token,decode});
         if (!prof) {
-            throw new Error(Localize.localize(request.body.lang || lang.Arabic,'StudentNotFound'))
+            throw new Error(Localize.localize(request.body.lang || lang.Arabic,'ProfNotFound'))
       }
-        //to save the student so we can access to it in the router
+        //to save the Prof so we can access to it in the router
       request['prof'] = prof;
       request['token'] = token;
         next()
