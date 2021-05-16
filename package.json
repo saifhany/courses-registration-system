@@ -33,8 +33,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "dev": "nodemon -x ts-node src/server.ts",
-      "start": "node --loader ts-node/esm ./my-script.ts"
+    "dev": "nodemon -x ts-node src/server.ts",
+    "start": "node --loader ts-node/esm ./my-script.ts"
   },
   "author": "",
   "license": "ISC"
