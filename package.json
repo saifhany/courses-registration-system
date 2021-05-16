@@ -2,7 +2,7 @@
   "name": "final-project",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/app.js",
+  "main": "/src/server.ts",
   "engines": {
     "node": "15.x",
     "npm": "7.x"
