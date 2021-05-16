@@ -34,8 +34,8 @@
   },
   "scripts": {
     "start-dev": "nodemon ./src/server.ts",
-    "build": "tsc -p .",
-    "start": "node --loader ts-node/esm ./src/server.js",
+    "build": "nodemon ./src/server.ts",
+    "start": "node --loader ts-node/esm ./src/server.ts",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
 
   },
