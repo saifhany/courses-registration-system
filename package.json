@@ -31,7 +31,8 @@
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "start-dev": "nodemon ./src/server.ts"
+    "start-dev": "nodemon ./src/server.ts",
+    "build": "nodemon ./src/server.ts build"
   },
   "author": "",
   "license": "ISC"
