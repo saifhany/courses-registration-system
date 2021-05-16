@@ -32,9 +32,9 @@
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "start-dev": "nodemon ./src/server.ts",
-    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
-    "prepublish": "npm run tsc"
+    "start": "node build/src/server.ts",
+    "build": "tsc",
+  "postinstall": "npm run build"
   },
   "author": "",
   "license": "ISC"
