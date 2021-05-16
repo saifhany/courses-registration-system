@@ -34,7 +34,7 @@
   "scripts": {
     "start": "ts-node-dev --poll ./src/server.ts",
     "start-dev": "nodemon ./src/server.ts",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix ./src/server.ts && npm run build --prefix ./src/server.ts"
 
   },
   "author": "",
