@@ -1,4 +1,5 @@
 import express, { application, Application, Router } from "express";
+const { Request, Response } = require("express")
 import { Logy } from './utils/logy';
 //student three layers
 import { StudentRouter } from './routers/student.router';

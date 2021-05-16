@@ -1,4 +1,5 @@
 import express, { Request, Response } from "express";
+const { Request, Response } = require("express")
 import * as path from "path";
 import * as dotenv from "dotenv";
 import helmet from 'helmet';
