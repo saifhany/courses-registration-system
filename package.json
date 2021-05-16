@@ -2,7 +2,7 @@
   "name": "final-project",
   "version": "1.0.0",
   "description": "",
-  "main": "server.ts",
+  "main": "dist/app.js",
   "type": "module",
   "engines": {
     "node": "15.x",
@@ -33,9 +33,9 @@
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "start-dev": "nodemon ./src/server.ts",
-    "start": "nodemon ./src/server.ts",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "nodemon -x ts-node src/App.ts",
+      "start": "ts-node src/App.ts"
   },
   "author": "",
   "license": "ISC"
