@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/app.js",
-  "type": "module",
   "engines": {
     "node": "15.x",
     "npm": "7.x"
@@ -34,8 +33,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "dev": "nodemon -x ts-node src/App.ts",
-      "start": "ts-node src/App.ts"
+      "dev": "nodemon -x ts-node src/server.ts",
+      "start": "node --loader ts-node/esm ./my-script.ts"
   },
   "author": "",
   "license": "ISC"
