@@ -1,6 +1,8 @@
 import express, { Request, Response } from "express";
 import * as path from "path";
 import * as dotenv from "dotenv";
+import helmet from 'helmet';
+import compression from 'compression';
 //load env vars
 dotenv.config({ path: __dirname + "/env/.env" });
 import { Env } from "./utils/env";
@@ -26,6 +28,10 @@ application.get("/", (req: Request, res: Response) => {
 application.get("/apis", (req: Request, res: Response) => {
   res.render(path.join("apis.ejs"), { apis: apiList });
 });
+// secure header
+application.use(helmet());
+// comprss files such as asseets
+application.use(compression());
 // new object from back end
 const backend: Backend = new Backend(express.Router(), application);
 // get PORT from env vars
