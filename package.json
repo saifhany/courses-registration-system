@@ -2,7 +2,7 @@
   "name": "final-project",
   "version": "1.0.0",
   "description": "",
-  "type":"commonjs",
+  "type":"module",
   "main": "/src/server.ts",
   "engines": {
     "node": "15.x",
