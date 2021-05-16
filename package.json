@@ -34,7 +34,6 @@
   "scripts": {
     "start": "ts-node-dev --poll ./src/server.ts",
     "start-dev": "nodemon ./src/server.ts"
-
   },
   "author": "",
   "license": "ISC"
