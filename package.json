@@ -2,7 +2,7 @@
   "name": "final-project",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "./src/server.ts",
   "engines": {
     "node": "15.x",
     "npm": "7.x"
@@ -32,10 +32,7 @@
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "start-dev": "nodemon ./src/server.ts",
-    "build": "node --loader ts-node/esm ./src/server.ts",
-    "start": "node --loader ts-node/esm ./src/server.ts",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "start-dev": "nodemon ./src/server.ts"
   },
   "author": "",
   "license": "ISC"
