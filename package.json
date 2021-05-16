@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "./src/server.ts",
-  "module": "./lib/esm/index.js",
   "type": "module",
   "engines": {
     "node": "15.12.0",
