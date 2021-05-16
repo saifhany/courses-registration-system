@@ -34,10 +34,9 @@
   },
   "scripts": {
     "start-dev": "nodemon ./src/server.ts",
-    "build": "nodemon ./src/server.ts",
+    "build": "node --loader ts-node/esm ./src/server.ts",
     "start": "node --loader ts-node/esm ./src/server.ts",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
-
   },
   "author": "",
   "license": "ISC"
